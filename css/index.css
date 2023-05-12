@@ -1,18 +1,24 @@
-body{ 
-    font-family:"Roboto", sans-serif;
-    background-color: #FFFFFF;
-    color: #212121;
-}
-.web-color{
-    color: #2196F3;
-
-}
-.studio{
-    color:#000000;
-
-}
-.webstudio{
+:root {
+    --background: #ffffff;
+    --color-text: #212121;
+    --color-text-secondary: #ffffff;
+    --color-text-info: #757575;
+    --selected-text: #2196f3;
+  }
+  html {
+    font-size: 10px;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    background: var(--background);
+    color: var(--color-text);
+  }
+  .logo-header {
+    font-family: "Raleway";
     font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-}
+    font-size: 2.6rem;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none; /* usuwa podkreślenie */
+    color: #000000;
+  }
