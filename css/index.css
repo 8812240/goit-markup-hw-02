@@ -3,3 +3,16 @@ body{
     background-color: #FFFFFF;
     color: #212121;
 }
+.web-color{
+    color: #2196F3;
+
+}
+.studio{
+    color:#000000;
+
+}
+.webstudio{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
