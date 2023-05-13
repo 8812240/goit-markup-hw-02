@@ -205,3 +205,96 @@ footer {
     text-decoration: underline;
     text-decoration-color: var(--blue);
 }
+
+.address-link {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.contact-footer {
+    font-size: 14px;
+    line-height: 24px;
+    list-style: none;
+    letter-spacing: 0.03em;
+}
+
+.mail-footer {
+    color: rgba(255,255,255,0.6);
+    text-decoration: none;
+}
+
+.tel-footer {
+    color: rgba(255,255,255,0.6);
+    text-decoration: none;
+}
+
+.mail-footer:hover,
+.tel-footer:hover,
+.address-link:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--blue);
+}
+
+.portfolio-button-menu {
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.portfolio-button-menu li {
+    display: inline;
+}
+
+.portfolio-button-blue {
+    background-color: var(--blue);
+    color: var(--white);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-button {
+    background-color: var(--light-gray);
+    color: var(--almost-black);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-section {
+    background-color: var(--almost-white);
+    list-style: none;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-section li {
+    display: inline-block;
+}
+
+.portfolio-section p {
+    text-align: left;
+}
+
+.h2-portfolio-section {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: left;
+    letter-spacing: 0.06em;
+}
+
+.h2-portfolio-section:hover,
+.portfolio-section p:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--blue);
+}
