@@ -289,6 +289,7 @@ footer {
 
 .h2-portfolio-section:hover,
 .portfolio-section p:hover,
-.portfolio-button:hover {
+.portfolio-button:hover
+.portfolio-button-blue:hover {
     text-decoration: underline solid var(--blue);
 }
