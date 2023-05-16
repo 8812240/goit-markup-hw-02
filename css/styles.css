@@ -129,7 +129,7 @@ color: var(--blue);
     letter-spacing: 0.03em;
 }
 
-.h2 {
+.h2-first-section {
     color: var(--almost-black);
     font-weight: 700;
     font-size: 14px;
