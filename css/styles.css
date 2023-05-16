@@ -31,8 +31,7 @@ color: var(--blue);
 
 .logo:hover,
 .logo-blue:hover {
-    text-decoration: underline;
-    text-decoration-color: var(--blue);
+    color: var(--blue);
 }
 
 .nav-menu {
@@ -75,7 +74,7 @@ color: var(--blue);
 }
 
 .mail {
-    color: var(--blue);
+    color: var(--gray)
     text-decoration: none;
 }
 
@@ -189,18 +188,12 @@ footer {
 }
 
 .logo-blue-footer {
-    font-family: "Oleo Script", sans-serif;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 31px;
     color: var(--blue);
-    letter-spacing: 0.03em;
 }
 
 .logo-footer:hover,
 .logo-blue-footer:hover {
-    text-decoration: underline;
-    text-decoration-color: var(--blue);
+    color: var(--blue);
 }
 
 .address-link {
@@ -232,8 +225,7 @@ footer {
 .mail-footer:hover,
 .tel-footer:hover,
 .address-link:hover {
-    text-decoration: underline;
-    text-decoration-color: var(--blue);
+    color: var(--blue);
 }
 
 .portfolio-button-menu {
@@ -247,13 +239,7 @@ footer {
 }
 
 .portfolio-button-blue {
-    background-color: var(--blue);
-    color: var(--white);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;
+    list-style: none;
 }
 
 .portfolio-button {
@@ -264,15 +250,12 @@ footer {
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
+    font-family: inherit;
+    cursor: pointer;
 }
 
 .portfolio-section {
-    background-color: var(--almost-white);
     list-style: none;
-    text-align: center;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
 }
 
 .portfolio-section li {
@@ -287,7 +270,6 @@ footer {
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
-    text-align: left;
     letter-spacing: 0.06em;
 }
 
