@@ -74,8 +74,9 @@ color: var(--blue);
 }
 
 .mail {
-    color: var(--gray)
+    color: var(--gray);
     text-decoration: none;
+
 }
 
 .tel {
@@ -85,8 +86,7 @@ color: var(--blue);
 
 .mail:hover,
 .tel:hover {
-    text-decoration: underline;
-    text-decoration-color: var(--blue);
+    color: var(--blue);
 }
 
 .hero {
